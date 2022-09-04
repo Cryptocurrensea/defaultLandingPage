@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export function useAutoPlay(){
+export function useScreenSize(){
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
